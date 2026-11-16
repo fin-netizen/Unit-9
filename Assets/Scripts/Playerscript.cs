@@ -7,7 +7,11 @@ public class Playerscript : MonoBehaviour
     int playerLives;
     public Vector2 direction;
     InputAction moveAction;
+
     InputAction attackAction;
+
+    float h, v;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -19,12 +23,13 @@ public class Playerscript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Movement();
         
     }
 
-    public void Movement(float Speed)
+    public void Movement()
     {
-        float horizontal = moveAction.ReadValue<Vector2>().x;
-        float vertical = moveAction.ReadValue<Vector2>().y;
+        h = moveAction.ReadValue<Vector2>().x;
+        v = moveAction.ReadValue<Vector2>().y;
     }
 }
