@@ -2,8 +2,10 @@ using Microsoft.Unity.VisualStudio.Editor;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+/*
 public class JoyStickScript : MonoBehaviour, IDragHandler, IPointerUpHandler, IPointerDownHandler
 {
+    
     [SerializeField] private float joystickVisualDistance = 50;
     
     private Image container;
@@ -63,4 +65,6 @@ public class JoyStickScript : MonoBehaviour, IDragHandler, IPointerUpHandler, IP
         direction = default(Vector3);
         joystick.rectTransform.anchoredPosition = default(Vector3);
     }
+    
 }
+*/
