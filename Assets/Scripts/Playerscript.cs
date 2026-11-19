@@ -25,6 +25,7 @@ public class Playerscript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Attack();
         Movement();
         LimitPosition();
     }
@@ -40,6 +41,15 @@ public class Playerscript : MonoBehaviour
         transform.Translate(finalDirection * speed * Time.deltaTime);
 
     }
+    void Attack()
+    {
+        GameObject clone;
+        /*
+        clone = Instantiate()
+        */
+
+    }
+
 
     void LimitPosition()
     {
