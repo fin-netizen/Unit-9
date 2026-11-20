@@ -3,6 +3,7 @@ using UnityEngine.InputSystem;
 
 public class Playerscript : MonoBehaviour
 {
+    public Animator anim;
     float attackTime;
     int playerLives;
     public Vector2 direction;
@@ -51,7 +52,10 @@ public class Playerscript : MonoBehaviour
         */
 
     }
-
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        anim.SetBool("dead", true);
+    }
 
     void LimitPosition()
     {
