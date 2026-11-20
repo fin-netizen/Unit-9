@@ -3,6 +3,8 @@ using UnityEngine.InputSystem;
 
 public class Playerscript : MonoBehaviour
 {
+    public LayerMask Terrain;
+
     public Animator anim;
     float attackTime;
     int playerLives;
@@ -10,7 +12,7 @@ public class Playerscript : MonoBehaviour
     InputAction moveAction;
     Rigidbody2D rb;
     InputAction attackAction;
-    public WeaponScript Weapon1 ;
+    public WeaponScript Weapon1;
     public WeaponScript Weapon2;
     public Transform LaunchOffset;
     float h, v;
@@ -31,6 +33,7 @@ public class Playerscript : MonoBehaviour
         Attack();
         Movement();
         LimitPosition();
+        
     }
 
     public void Movement()
@@ -52,11 +55,7 @@ public class Playerscript : MonoBehaviour
         */
 
     }
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        anim.SetBool("dead", true);
-    }
-
+    
     void LimitPosition()
     {
         Vector2 pos = transform.position;
@@ -87,6 +86,19 @@ public class Playerscript : MonoBehaviour
         transform.position = pos;
 
 
+    }
+    
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
 
+        if(collision.gameObject.tag == "Terrain")
+        {
+            anim.SetBool("dead", true);
+        }
+    }
+    
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        
     }
 }
