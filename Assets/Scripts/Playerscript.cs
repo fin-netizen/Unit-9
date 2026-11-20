@@ -9,7 +9,9 @@ public class Playerscript : MonoBehaviour
     InputAction moveAction;
     Rigidbody2D rb;
     InputAction attackAction;
-
+    public WeaponScript Weapon1 ;
+    public WeaponScript Weapon2;
+    public Transform LaunchOffset;
     float h, v;
     [SerializeField] private InputActionReference moveActionToUse;
     [SerializeField] private float speed;

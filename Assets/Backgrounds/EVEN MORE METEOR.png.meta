@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: aea845c8af342b64b9fae8b65587b9b2
+guid: 8b998f5dcd25fb64f871fd32158475cd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9082429109045791810
-    second: Laser_0
+      213: 7953437984845099912
+    second: EVEN MORE METEOR_0
+  - first:
+      213: -2407454689721688550
+    second: EVEN MORE METEOR_1
+  - first:
+      213: -8185674022655968360
+    second: EVEN MORE METEOR_2
+  - first:
+      213: -3018137962258093895
+    second: EVEN MORE METEOR_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 15
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,177 +122,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Laser_0
+      name: EVEN MORE METEOR_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 30
-        width: 4
-        height: 2
+        x: 0
+        y: 117
+        width: 161
+        height: 26
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 24c875667254b0e70800000000000000
-      internalID: 9082429109045791810
+      spriteID: 8837ac545b9406e60800000000000000
+      internalID: 7953437984845099912
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Laser_1
+      name: EVEN MORE METEOR_1
       rect:
         serializedVersion: 2
         x: 0
-        y: 26
-        width: 5
-        height: 2
+        y: 66
+        width: 65
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 1, y: 1, z: 0, w: 0}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 7a3c5c6b5c2d32d4a80886f028f5184f
-      internalID: 420905534
+      spriteID: a1e5a4607b0079ed0800000000000000
+      internalID: -2407454689721688550
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Laser_2
+      name: EVEN MORE METEOR_2
       rect:
         serializedVersion: 2
-        x: 1
-        y: 23
-        width: 4
-        height: 1
+        x: 0
+        y: 0
+        width: 49
+        height: 9
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: d30903a41062a5542baaedc3b59bddc1
-      internalID: 250613209
+      spriteID: 89bb27098d4a66e80800000000000000
+      internalID: -8185674022655968360
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Laser_3
+      name: EVEN MORE METEOR_3
       rect:
         serializedVersion: 2
-        x: 1
-        y: 19
-        width: 4
-        height: 1
+        x: 177
+        y: 0
+        width: 33
+        height: 47
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 9eeef20d7e15e9e49bc6d710fefa2846
-      internalID: 787401848
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Laser_4
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 15
-        width: 4
-        height: 1
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8f70382ad3cd32b419350f83275922ff
-      internalID: 890910658
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Laser_5
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 11
-        width: 4
-        height: 1
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7171d5406fe61be468e93ab898234ad0
-      internalID: 1470516410
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Laser_6
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 7
-        width: 4
-        height: 1
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 50760ab72a1223c438a1a13035683ef7
-      internalID: 695533159
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Laser_7
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 3
-        width: 4
-        height: 1
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 99261ac06775318488cb954e09f39b5f
-      internalID: -1456266749
+      spriteID: 9b82c7c938b6d16d0800000000000000
+      internalID: -3018137962258093895
       vertices: []
       indices: 
       edges: []
@@ -292,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: f13a78a529ff72240906867136c08701
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -300,18 +221,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":2.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      Laser_0: 9082429109045791810
-      Laser_1: 420905534
-      Laser_2: 250613209
-      Laser_3: 787401848
-      Laser_4: 890910658
-      Laser_5: 1470516410
-      Laser_6: 695533159
-      Laser_7: -1456266749
+      EVEN MORE METEOR_0: 7953437984845099912
+      EVEN MORE METEOR_1: -2407454689721688550
+      EVEN MORE METEOR_2: -8185674022655968360
+      EVEN MORE METEOR_3: -3018137962258093895
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -2,15 +2,14 @@ using UnityEngine;
 
 public class WeaponScript : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    public float Speed = 4.5f;
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        transform.position += -transform.right * Time.deltaTime * Speed;
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Destroy(gameObject);
     }
 }
