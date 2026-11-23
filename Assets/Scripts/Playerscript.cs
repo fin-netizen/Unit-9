@@ -94,6 +94,7 @@ public class Playerscript : MonoBehaviour
         if(collision.gameObject.tag == "Terrain")
         {
             anim.SetBool("dead", true);
+            playerLives--;
         }
     }
     
