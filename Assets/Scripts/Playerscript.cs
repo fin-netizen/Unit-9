@@ -4,7 +4,7 @@ using UnityEngine.InputSystem;
 public class Playerscript : MonoBehaviour
 {
     public LayerMask Terrain;
-
+    public RespawnScript respawn;
     public Animator anim;
     float attackTime;
     int playerLives;

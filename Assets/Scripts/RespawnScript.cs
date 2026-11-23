@@ -1,9 +1,9 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class RespawnScript : Playerscript
+public class RespawnScript : MonoBehaviour
 {
-    public Playerscript Player;
+
     public int playerCount;
     public float deathTimer = 2f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -22,7 +22,6 @@ public class RespawnScript : Playerscript
         GameObject[] player;
         player = GameObject.FindGameObjectsWithTag("Player");
         playerCount = player.Length;
-
         if(playerCount == 0)
         {
             deathTimer -= Time.deltaTime;
