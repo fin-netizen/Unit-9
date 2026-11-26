@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class Playerscript : MonoBehaviour
 {
@@ -18,6 +19,8 @@ public class Playerscript : MonoBehaviour
     float h, v;
     [SerializeField] private InputActionReference moveActionToUse;
     [SerializeField] private float speed;
+
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -25,11 +28,14 @@ public class Playerscript : MonoBehaviour
         moveAction = InputSystem.actions.FindAction("Move");
         attackAction = InputSystem.actions.FindAction("Fire");
         playerLives = 3;
+
     }
 
     // Update is called once per frame
     void Update()
     {
+        
+
         Attack();
         Movement();
         LimitPosition();
@@ -38,6 +44,11 @@ public class Playerscript : MonoBehaviour
 
     public void Movement()
     {
+        if( ManagerScript.scroll == false )
+        {
+            return;
+        }
+
         v = moveAction.ReadValue<Vector2>().x;
         h = moveAction.ReadValue<Vector2>().y;
         Vector2 moveDirection = moveActionToUse.action.ReadValue<Vector2>();
@@ -95,11 +106,29 @@ public class Playerscript : MonoBehaviour
         {
             anim.SetBool("dead", true);
             playerLives--;
+            RespawnScript.playerCount--;
+            ManagerScript.scroll = false;
+            DeathAnimFinished();
+            
         }
     }
     
     private void OnTriggerEnter2D(Collider2D collision)
     {
         
+    }
+
+    public void DeathAnimFinished()
+    {
+        print("explosion done!");
+
+        Invoke("ReloadScene", 2); // run this method after a period of time
+    }
+
+    void ReloadScene()
+    {
+        //load scene
+        SceneManager.LoadScene("Level");
+        return;
     }
 }
