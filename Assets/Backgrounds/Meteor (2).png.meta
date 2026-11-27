@@ -1,0 +1,910 @@
+fileFormatVersion: 2
+guid: 77b27d0950952e444a2b932fd07a4455
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1352817645497289094
+    second: Meteor (2)_0
+  - first:
+      213: 4692449812535394765
+    second: Meteor (2)_1
+  - first:
+      213: 3253882243304154860
+    second: Meteor (2)_2
+  - first:
+      213: -3469872663980717270
+    second: Meteor (2)_3
+  - first:
+      213: -2962339136270572876
+    second: Meteor (2)_4
+  - first:
+      213: 2114907560915418501
+    second: Meteor (2)_5
+  - first:
+      213: -9032840911717329685
+    second: Meteor (2)_6
+  - first:
+      213: 5378518554014965874
+    second: Meteor (2)_7
+  - first:
+      213: 1804311968745176715
+    second: Meteor (2)_8
+  - first:
+      213: 406269854636239825
+    second: Meteor (2)_9
+  - first:
+      213: -8976439115177809115
+    second: Meteor (2)_10
+  - first:
+      213: 1352495355991976603
+    second: Meteor (2)_11
+  - first:
+      213: -3815785467587076840
+    second: Meteor (2)_12
+  - first:
+      213: 4099411941680809378
+    second: Meteor (2)_13
+  - first:
+      213: 6717765743562822163
+    second: Meteor (2)_14
+  - first:
+      213: 624536837283234999
+    second: Meteor (2)_15
+  - first:
+      213: 1912248106389393002
+    second: Meteor (2)_16
+  - first:
+      213: 8593618735512337915
+    second: Meteor (2)_17
+  - first:
+      213: -4896505690825557285
+    second: Meteor (2)_18
+  - first:
+      213: 8104327612443450359
+    second: Meteor (2)_19
+  - first:
+      213: 1883037360872971427
+    second: Meteor (2)_20
+  - first:
+      213: -1767168566951338925
+    second: Meteor (2)_21
+  - first:
+      213: 8611636186912608369
+    second: Meteor (2)_22
+  - first:
+      213: 6926920189317783895
+    second: Meteor (2)_23
+  - first:
+      213: -6895783837306333920
+    second: Meteor (2)_24
+  - first:
+      213: -6499590828873715947
+    second: Meteor (2)_25
+  - first:
+      213: -2759958932066457681
+    second: Meteor (2)_26
+  - first:
+      213: -8598663482502732644
+    second: Meteor (2)_27
+  - first:
+      213: 7529743508254744182
+    second: Meteor (2)_28
+  - first:
+      213: 144731851683389998
+    second: Meteor (2)_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Meteor (2)_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 138
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6890fb52b7c26c210800000000000000
+      internalID: 1352817645497289094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteor (2)_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 138
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc1458a2e3eee1140800000000000000
+      internalID: 4692449812535394765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteor (2)_2
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 138
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce6681519ac182d20800000000000000
+      internalID: 3253882243304154860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteor (2)_3
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 138
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2b479f323988dfc0800000000000000
+      internalID: -3469872663980717270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteor (2)_4
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 138
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b2ea5e2048a3e6d0800000000000000
+      internalID: -2962339136270572876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteor (2)_5
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 138
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58db62da839a95d10800000000000000
+      internalID: 2114907560915418501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteor (2)_6
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 138
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be419708c07e4a280800000000000000
+      internalID: -9032840911717329685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteor (2)_7
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 138
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 270e8e5d02654aa40800000000000000
+      internalID: 5378518554014965874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteor (2)_8
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 138
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8eba090d243a0910800000000000000
+      internalID: 1804311968745176715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteor (2)_9
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 138
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dbea80c74c53a500800000000000000
+      internalID: 406269854636239825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteor (2)_10
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 104
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52ba7e71f284d6380800000000000000
+      internalID: -8976439115177809115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteor (2)_11
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 104
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9a64464c5705c210800000000000000
+      internalID: 1352495355991976603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteor (2)_12
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 104
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ddf59855b9b0bc0800000000000000
+      internalID: -3815785467587076840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteor (2)_13
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 104
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a501ebf07904e830800000000000000
+      internalID: 4099411941680809378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteor (2)_14
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 104
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 312995df95c4a3d50800000000000000
+      internalID: 6717765743562822163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteor (2)_15
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 104
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b4c96fc1fccaa800800000000000000
+      internalID: 624536837283234999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteor (2)_16
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 104
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6ec0cf658ba98a10800000000000000
+      internalID: 1912248106389393002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteor (2)_17
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 104
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfdba5185baa24770800000000000000
+      internalID: 8593618735512337915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteor (2)_18
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 104
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdaf9a9540e1c0cb0800000000000000
+      internalID: -4896505690825557285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteor (2)_19
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 104
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fbd413660b587070800000000000000
+      internalID: 8104327612443450359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteor (2)_20
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 70
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ac5f91c084e12a10800000000000000
+      internalID: 1883037360872971427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteor (2)_21
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 70
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35c11ac1d81c977e0800000000000000
+      internalID: -1767168566951338925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteor (2)_22
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 70
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17053df4c7da28770800000000000000
+      internalID: 8611636186912608369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteor (2)_23
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 70
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 751a4c7363d512060800000000000000
+      internalID: 6926920189317783895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteor (2)_24
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 70
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 025d979a2214d40a0800000000000000
+      internalID: -6895783837306333920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteor (2)_25
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 70
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51f6893d390dcc5a0800000000000000
+      internalID: -6499590828873715947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteor (2)_26
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 70
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa7238369f7a2b9d0800000000000000
+      internalID: -2759958932066457681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteor (2)_27
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 70
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c942d4ece196ba880800000000000000
+      internalID: -8598663482502732644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteor (2)_28
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 70
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67ed35393d50f7860800000000000000
+      internalID: 7529743508254744182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteor (2)_29
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 70
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e22e54f2ad0320200800000000000000
+      internalID: 144731851683389998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Meteor (2)_0: 1352817645497289094
+      Meteor (2)_1: 4692449812535394765
+      Meteor (2)_10: -8976439115177809115
+      Meteor (2)_11: 1352495355991976603
+      Meteor (2)_12: -3815785467587076840
+      Meteor (2)_13: 4099411941680809378
+      Meteor (2)_14: 6717765743562822163
+      Meteor (2)_15: 624536837283234999
+      Meteor (2)_16: 1912248106389393002
+      Meteor (2)_17: 8593618735512337915
+      Meteor (2)_18: -4896505690825557285
+      Meteor (2)_19: 8104327612443450359
+      Meteor (2)_2: 3253882243304154860
+      Meteor (2)_20: 1883037360872971427
+      Meteor (2)_21: -1767168566951338925
+      Meteor (2)_22: 8611636186912608369
+      Meteor (2)_23: 6926920189317783895
+      Meteor (2)_24: -6895783837306333920
+      Meteor (2)_25: -6499590828873715947
+      Meteor (2)_26: -2759958932066457681
+      Meteor (2)_27: -8598663482502732644
+      Meteor (2)_28: 7529743508254744182
+      Meteor (2)_29: 144731851683389998
+      Meteor (2)_3: -3469872663980717270
+      Meteor (2)_4: -2962339136270572876
+      Meteor (2)_5: 2114907560915418501
+      Meteor (2)_6: -9032840911717329685
+      Meteor (2)_7: 5378518554014965874
+      Meteor (2)_8: 1804311968745176715
+      Meteor (2)_9: 406269854636239825
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

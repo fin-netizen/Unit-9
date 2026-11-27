@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Playerscript : MonoBehaviour
 {
@@ -8,13 +9,13 @@ public class Playerscript : MonoBehaviour
     public RespawnScript respawn;
     public Animator anim;
     float attackTime;
-    
+    public Button Laser;
     public Vector2 direction;
     InputAction moveAction;
     Rigidbody2D rb;
     InputAction attackAction;
-    public WeaponScript Weapon1;
-    public WeaponScript Weapon2;
+    public GameObject Weapon1;
+    public GameObject Weapon2;
     public Transform LaunchOffset;
     float h, v;
     [SerializeField] private InputActionReference moveActionToUse;
@@ -34,11 +35,12 @@ public class Playerscript : MonoBehaviour
     void Update()
     {
         
-
-        Attack();
         Movement();
         LimitPosition();
-        
+        if (Laser.IsPressed())
+        {
+            Attack();
+        }
     }
 
     public void Movement()
@@ -47,7 +49,7 @@ public class Playerscript : MonoBehaviour
         {
             return;
         }
-
+        anim.SetBool("attack", false);
         v = moveAction.ReadValue<Vector2>().x;
         h = moveAction.ReadValue<Vector2>().y;
         Vector2 moveDirection = moveActionToUse.action.ReadValue<Vector2>();
@@ -59,11 +61,19 @@ public class Playerscript : MonoBehaviour
     }
     void Attack()
     {
+        anim.SetBool("attack", true);
         GameObject clone;
-        /*
-        clone = Instantiate()
-        */
 
+        clone = Instantiate(Weapon1, transform.position, Quaternion.identity);
+
+        Rigidbody2D rb = clone.GetComponent<Rigidbody2D>();
+
+        rb.linearVelocity = new Vector2(12, 0);
+
+        rb.transform.position = new Vector3(transform.position.x, transform.position.y + 0.15f, transform.position.z + 1);
+
+        rb.transform.Rotate(new Vector3(0, 0, 0));
+        
     }
     
     void LimitPosition()
