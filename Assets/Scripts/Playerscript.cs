@@ -8,7 +8,7 @@ public class Playerscript : MonoBehaviour
     public RespawnScript respawn;
     public Animator anim;
     float attackTime;
-    int playerLives;
+    
     public Vector2 direction;
     InputAction moveAction;
     Rigidbody2D rb;
@@ -27,7 +27,6 @@ public class Playerscript : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         moveAction = InputSystem.actions.FindAction("Move");
         attackAction = InputSystem.actions.FindAction("Fire");
-        playerLives = 3;
 
     }
 
@@ -105,7 +104,7 @@ public class Playerscript : MonoBehaviour
         if(collision.gameObject.tag == "Terrain")
         {
             anim.SetBool("dead", true);
-            playerLives--;
+            ManagerScript.playerLives--;
             RespawnScript.playerCount--;
             ManagerScript.scroll = false;
             DeathAnimFinished();
@@ -127,8 +126,17 @@ public class Playerscript : MonoBehaviour
 
     void ReloadScene()
     {
-        //load scene
-        SceneManager.LoadScene("Level");
+        if (ManagerScript.playerLives == 0)
+        {
+            SceneManager.LoadScene("Menu");
+        }
+        else
+        {
+            //load scene
+            SceneManager.LoadScene("Level");
+        }
+           
         return;
+
     }
 }
